@@ -31,9 +31,9 @@ def getXnY(testno,both = True):
     
     #opening files
     if both:
-        t2 = open(Dataset_path+'/'+str(testno)+'/'+str(testno)+'.txt', 'r')
-    t1 = open(Dataset_path+'/'+str(testno)+'/'+str(testno)+'p.txt', 'r')
-    t3 = open(Dataset_path+'/'+str(testno)+'/title.txt', 'r')
+        t2 = open('paper.txt', 'r')
+    t1 = open('paper.txt', 'r')
+    t3 = open('paper.txt', 'r')
     
     #reading files
     if both:
