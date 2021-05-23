@@ -17,10 +17,13 @@ clf=pickle.load(open('clf.sav','rb'))
 
 paper = open('ppt.txt', 'r').read()
 ps = PorterStemmer() 
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('large_grammars')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('large_grammars')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('brown')
+
+
 
 
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
